@@ -18,7 +18,7 @@ h1 {
     padding:20px;
     margin: auto;
     display: block;
-    font-size: 40px;
+    font-size: 42px;
     font-family: 'Kaushan Script', cursive;
 }
 
@@ -40,6 +40,9 @@ h1 {
     font-size: 20px;
     background-color: #FDA50F;
     border: none;
+    font-family: 'Courgette', cursive;
+    font-weight:500;
+    border-radius: 20px;
 }
 
 h2{
@@ -55,6 +58,7 @@ h2{
     padding:30px;
     background-color: white;
     overflow: scroll;
+    font-size: 25px;
 }
 
 footer {
