@@ -1,38 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&display=swap');
+
+
 body{
     height:100%;
     padding:0;
     margin:0;
     border:0; 
-    
-}
+    background-image: url("assets/banana.jpg");
+    background-repeat: no-repeat, repeat;
+    }
 
 h1 {
-    background-color:yellow;
+    background-color: #FFD300;
     color:black;
     text-align: center;
-    padding:30px;
+    padding:20px;
     margin: auto;
     display: block;
     font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 #text-area{
-    margin: 50px auto;
+    margin: 30px auto;
     display:block;
     border:5px solid;
     padding:30px;
-    width:60%;
+    width:50%;
     height: 130px;
     font-size: 25px;
 }
 
 .btn-main {
-    margin:60px auto;
+    margin:30px auto;
     display:block;
     width: 250px;
     height:50px;
     font-size: 20px;
-    background-color: yellow;
+    background-color: #FDA50F;
     border: none;
 }
 
@@ -47,14 +53,17 @@ h2{
     width:400px;
     height:100px;
     padding:30px;
+    background-color: white;
+    overflow: scroll;
 }
 
 footer {
-    background-color: yellow;
+    background-color: #FDA50F;
     margin: 30px auto;
     padding: 5px;
     margin-bottom: 0px;
     display: block;
+    font-family: 'Courgette', cursive;
 }
 
 footer h3 {
@@ -64,9 +73,10 @@ footer h3 {
 
 footer div {
     text-align: center;
-    font-size:25px;
-    width:45%;
+    font-size:20px;
+    width:65%;
     margin:auto;
+    margin-top: 0px;
 }
 
 
