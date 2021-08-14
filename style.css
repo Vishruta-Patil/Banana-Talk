@@ -7,9 +7,28 @@ body{
     padding:0;
     margin:0;
     border:0; 
-    background-image: url("assets/banana.jpg");
+    /* background-image: url("assets/banana.jpg"); */
     background-repeat: no-repeat, repeat;
     }
+
+.main-container {
+    display: flex;
+    
+}
+
+.side-img{
+    width:40%;
+}
+
+.container {
+    width: 60%;
+}
+
+img {
+    height:500px;
+    width:390px;
+    margin: 50px 20px 30px;
+}
 
 h1 {
     background-color: #FFD300;
@@ -27,7 +46,8 @@ h1 {
     display:block;
     border:5px solid;
     padding:30px;
-    width:50%;
+    max-width: 1000px;
+    width:80%;
     height: 130px;
     font-size: 25px;
 }
@@ -53,12 +73,13 @@ h2{
     border: 5px solid;
     margin:auto;
     display:block;
-    width:400px;
-    height:100px;
+    width:65%;
+    height:120px;
     padding:30px;
     background-color: white;
     overflow: scroll;
     font-size: 25px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -66,8 +87,12 @@ footer {
     margin: 30px auto;
     padding: 5px;
     margin-bottom: 0px;
-    display: block;
+    /* display: block; */
     font-family: 'Courgette', cursive;
+    /* right:0;
+    left:0;
+    bottom:0;
+    position:sticky */
 }
 
 footer h3 {
@@ -83,8 +108,28 @@ footer div {
     margin-top: 0px;
 }
 
-
-
-
-
+@media only screen and (max-width:855px) {
+    .side-img{
+        display: none;
+    }
+    .main-container{
+        display: block;
+        margin:auto;
+        text-align: center;
+    }
+    .container{
+        display: block;
+        margin:auto;
+        text-align: center;
+    }
+    textarea, button, .output-area{
+        display: block;
+        margin:auto;
+        width:100%;
+        margin-left: -35px;
+    }
+    .btn-main{
+        margin-left: -10px;
+    }
+}
 
